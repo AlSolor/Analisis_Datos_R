@@ -1,7 +1,7 @@
 library("foreign")
 library("modeest")
 library("moments")
-# Hoe many subjects smoke?
+# How many subjects smoke?
 datos <- read.spss('datasets/practica.sav', to.data.frame = TRUE)
 
 datos
