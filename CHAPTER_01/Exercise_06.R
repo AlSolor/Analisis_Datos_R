@@ -18,5 +18,9 @@ var_x <- var_x + (x[6]-mean_x)**2
 var_x <- var_x + (x[7]-mean_x)**2
 var_x <- var_x + (x[8]-mean_x)**2
 var_x <- var_x + (x[9]-mean_x)**2
+<<<<<<< HEAD
 var_x <- var_x /(length(x)-1)
+=======
+var_x <- var_x /(length(x))
+>>>>>>> 3a9c479314268d64863dd21da5bc202846c8a03a
 var_x
