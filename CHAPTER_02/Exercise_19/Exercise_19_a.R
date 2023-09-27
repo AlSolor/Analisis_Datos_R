@@ -15,9 +15,9 @@ datos$estatura <- (datos$estatura * 100)/2.54
 datos$peso <- (datos$peso * 1000)/453.6
 
 #Obteniendo la media y la varianza
-median(datos$estatura)
+mean(datos$estatura)
 var(datos$estatura)
 
-median(datos$peso)
+mean(datos$peso)
 var(datos$peso)
 
